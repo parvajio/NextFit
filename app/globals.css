@@ -14,7 +14,7 @@
     }
 
     .hero-img{
-        @apply w-full h-full object-cover group-hover:scale-105 transition-all duration-300;
+        @apply w-full h-full object-cover group-hover:scale-105 transition-all duration-500;
     }
 
     .hero-bg{
@@ -22,6 +22,6 @@
     }
 
     .hero-bg h2{
-        @apply font-bold font-orbitron tracking-wider mb-8;
+        @apply font-bold font-orbitron tracking-wider mb-5 text-center;
     }
 }
