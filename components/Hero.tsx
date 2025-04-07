@@ -4,11 +4,11 @@ import { Button } from "./ui/button";
 
 const Hero = () => {
   return (
-    <div className="w-full mx-auto lg:h-screen">
+    <div className="w-full mx-auto mb-20">
       {/* Navigation bar would go here */}
 
       {/* Main grid layout */}
-      <div className="flex justify-center items-center mx-10">
+      <div className="flex justify-center items-center mx-10 md:mx-0">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-1 w-full">
           {/* Main content area - takes up 2/3 of the width on large screens */}
           <div className="lg:col-span-2  bg-slate-800 min-h-[500px] hero-main">
