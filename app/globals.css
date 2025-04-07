@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@theme{
+    --color-primary : #3f1eff;
+    --font-anton : "Anton", "sans-serif";
+    --font-bebas-neue: var(--font-bebas-neue);
+    --font-orbitron: var(--font-orbitron);
+    --font-oswald: "Oswald", "sans-serif";
+}
