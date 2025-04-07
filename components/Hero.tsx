@@ -9,16 +9,17 @@ const Hero = () => {
       {/* Main grid layout */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-1 w-full">
         {/* Main content area - takes up 2/3 of the width on large screens */}
-        <div className="lg:col-span-2 relative bg-slate-800 min-h-[500px] flex items-center justify-center">
-          <div className="relative w-full h-full">
+        <div className="lg:col-span-2  bg-slate-800 min-h-[500px] hero-main">
+          <div className="relative w-full transition-all duration-300 h-full group">
             <Image
-              src="https://placehold.co/800x500.png"
+            loading='lazy'
+              src="/images/Gym1.jpg"
               alt="Next Fit"
               fill
-              className="w-full h-full object-cover"
+              className="hero-img"
             />
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
-              <h2 className="text-5xl md:text-7xl font-bold uppercase tracking-wider mb-8">NextFit</h2>
+            <div className="hero-bg">
+              <h2 className=''>NextFit</h2>
               {/* <Button variant="outline" className="bg-white text-black hover:bg-gray-200 uppercase font-semibold px-8">
                 Shop Now
               </Button> */}
@@ -29,15 +30,16 @@ const Hero = () => {
         {/* Sidebar - takes up 1/3 of the width on large screens */}
         <div className="lg:col-span-1 grid grid-rows-2 gap-1">
           {/* Top sidebar section */}
-          <div className="relative bg-slate-800 min-h-[240px]">
+          <div className="relative bg-slate-800 min-h-[240px] group transition-all duration-300">
             <Image
-              src="https://placehold.co/400x240.png"
+            loading='lazy'
+              src="/images/gym2.jpg"
               alt="Oysters"
               fill
-              className="w-full h-full object-cover"
+              className="hero-img"
             />
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-white p-4 text-center">
-              <h2 className="text-4xl md:text-5xl font-bold mb-2">100 % Authentic</h2>
+            <div className="hero-bg">
+              <h2 className=''>100 % Authentic</h2>
               <p className="mb-4">Embrace authenticity with NextFit.</p>
               {/* <Button variant="outline" className="bg-white text-black hover:bg-gray-200 uppercase font-semibold">
                 Book Now
@@ -46,15 +48,16 @@ const Hero = () => {
           </div>
 
           {/* Bottom sidebar section */}
-          <div className="relative bg-slate-700 min-h-[240px]">
+          <div className="relative bg-slate-700 min-h-[240px] group transition-all duration-300">
             <Image
-              src="https://placehold.co/600x400.png"
+            loading='lazy'
+              src="/images/gym.jpg"
               alt="Rewards"
               fill
-              className="w-full h-full object-cover"
+              className="hero-img"
             />
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-white p-4 text-center">
-              <h2 className="text-4xl md:text-5xl font-bold mb-2">Extensive Warranty</h2>
+            <div className="hero-bg">
+              <h2 className=''>Extensive Warranty</h2>
               <p className="mb-4">
               Elevate your fitness journey with confidence – choose NextFit for lasting quality.
               </p>

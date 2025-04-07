@@ -7,3 +7,21 @@
     --font-orbitron: var(--font-orbitron);
     --font-oswald: "Oswald", "sans-serif";
 }
+
+@layer components{
+    .hero-main{
+        @apply relative flex items-center justify-center rounded-md overflow-hidden;
+    }
+
+    .hero-img{
+        @apply w-full h-full object-cover group-hover:scale-105 transition-all duration-300;
+    }
+
+    .hero-bg{
+        @apply absolute inset-0 flex flex-col items-center justify-center text-white bg-black/50;
+    }
+
+    .hero-bg h2{
+        @apply font-bold font-orbitron tracking-wider mb-8;
+    }
+}
