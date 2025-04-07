@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { Button } from "./ui/button";
 
 const Hero = () => {
   return (
@@ -21,9 +22,9 @@ const Hero = () => {
               />
               <div className="hero-bg">
                 <h2 className="text-[min(10vw,80px)]">NextFit</h2>
-                {/* <Button variant="outline" className="bg-white text-black hover:bg-gray-200 uppercase font-semibold px-8">
+                <Button variant="outline" className="bg-white text-black hover:bg-gray-200 uppercase font-semibold px-8">
                 Shop Now
-              </Button> */}
+              </Button>
               </div>
             </div>
           </div>
@@ -42,9 +43,6 @@ const Hero = () => {
               <div className="hero-bg">
                 <h2 className="text-[min(10vw,30px)]">100 % Authentic</h2>
                 <p className="mb-4">Embrace authenticity with NextFit.</p>
-                {/* <Button variant="outline" className="bg-white text-black hover:bg-gray-200 uppercase font-semibold">
-                Book Now
-              </Button> */}
               </div>
             </div>
 
@@ -63,9 +61,6 @@ const Hero = () => {
                   Elevate your fitness journey with confidence – choose NextFit
                   for lasting quality.
                 </p>
-                {/* <Button variant="outline" className="bg-white text-black hover:bg-gray-200 uppercase font-semibold">
-                Login Now
-              </Button> */}
               </div>
             </div>
           </div>
