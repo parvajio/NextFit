@@ -47,6 +47,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="https://res.cloudinary.com/dlvxxcpbj/image/upload/v1747407470/logo_n2g1m4.png" sizes="any" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${anton.variable} ${bebasNeue.variable} ${orbitron.variable} ${oswald.variable} antialiased max-w-7xl mx-auto`}
       >
